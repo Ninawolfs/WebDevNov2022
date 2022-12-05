@@ -1,0 +1,153 @@
+html body {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTN6uGrbEXqNld1UWZA_HwYv98zRzL5pyMWQ&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-position: top;
+    background-attachment: fixed;
+    padding: 50px;
+    font-family: "solway";
+    /* How do we do this again? */
+}
+
+header{
+    background: url(https://media.istockphoto.com/id/1215897390/photo/dog-celebrating-with-party-hat.jpg?b=1&s=170667a&w=0&k=20&c=4bYlvA59ha577It1SLuGDkgiXbKu-Ag2FNYaanjM3CQ=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    padding: 150px;
+   
+}
+
+h1 {
+    text-align: center;
+    color: rgb(20, 110, 110);
+    text-shadow: 0 0 10px #eecf54;
+    border: #eecf54 10px solid;
+    border-collapse: separate;
+    border-radius: 4px;
+    
+}
+
+i {
+    position: center;
+    /* how do you do this?  */
+    size: 10px 10px 10px 10px;
+}
+
+h2 {
+    color: aquamarine;
+    text-shadow: -1px 0 rgb(20, 110, 110), 0 1px rgb(20, 110, 110), 1px 0 rgb(20, 110, 110), 0 -1px rgb(20, 110, 110);
+    margin-top: 100px; 
+}
+
+h3 {
+    color: rgb(20, 110, 110); 
+    margin-top: 50px;
+}
+
+ul {
+    border-top:rgb(20, 110, 110) 1px solid;
+    border-bottom:rgb(20, 110, 110) 1px solid;
+}
+
+li {
+    color: rgb(20, 110, 110) !important; 
+    padding: 10px;
+
+}  
+  
+li:hover {
+    color: rgb(10, 230, 157) !important;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(20, 110, 110) !important; 
+    padding: 10px;
+}
+
+ img {
+    align-content: center;
+    /* how do we do this? */
+    border: 3px solid rgb(10, 230, 157);
+    border-style: inset;
+    border-radius: 10px;
+ }
+
+button {
+    background-color: rgb(20, 110, 110);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=date] {
+    padding: 3px 5px;
+    border: 1px solid rgb(10, 230, 157);
+    background-color: #eecf54;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    resize: vertical;
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid rgb(10, 230, 157); 
+    border-radius: 5px; 
+    box-sizing: border-box;
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+
+  }
+  
+ input[type=submit] {
+    background-color: rgb(20, 110, 110);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: rgb(10, 230, 157);
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #eecf54;
+    padding: 0px;
+  }
+
+  form{
+    border: 2px solid rgb(10, 230, 157);
+    padding: 50px;
+    border-radius: 4px;
+  }
+
+
+ footer{
+    background: url(https://wallpapercave.com/wp/wp5514330.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    padding: 50px; 
+ }
+
+
+

@@ -1,0 +1,91 @@
+html body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    background-color: rgb(63, 6, 57);
+    color: whitesmoke;
+    padding: 20px;
+}
+
+nav {
+background:url(bg.jpg);
+background-size: 100%;
+color: whitesmoke;
+padding: 5px;
+text-align: center;
+/* margin: 10px;
+border: black solid 10px; */
+}
+
+ul {
+    padding: 0px;
+}
+
+li{
+display: inline;
+margin-right: 5px;
+font-size: 14px;
+}
+
+li:hover {
+color: greenyellow;
+}
+
+main {
+    padding: 20px;
+}
+
+article {
+/* background: rgb(54, 3, 102); */
+/* border-bottom: 1px dashed black;
+width: 300px;
+height: 300px; */
+/* outline-style: groove;
+outline-width: 10px;
+outline-color: red; */
+font-family: nerko one;
+color: rgb(63, 20, 88);
+}
+.icon {
+    font-size: 40pt;
+    color:rgb(63, 6, 57);
+    box-shadow:rgb(63, 20, 88) 10px 10px;
+}
+.icon:hover{
+    color: blueviolet;
+}
+.btn{
+    background: white;
+    padding: 8px 30px;
+    font-size: 14px;
+    border: 2px greenyellow solid;
+}
+.btn:hover{
+    background: greenyellow;
+    color: white;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    border: 1px red solid;
+    position: absolute
+}
+.box1 {
+    top:0;
+    left:0;
+    background:black;
+}
+.box2 {
+    bottom:0;
+    right:0;
+    background:grey;
+}
+.box3 {
+    bottom:0;
+    left:0;
+    background:blue;
+}
