@@ -1,0 +1,20 @@
+.bg-lavender {
+    background-color: #b2a4d4;
+}
+.bg-sage {
+    background-color:#9CAF88;
+}
+.bg-pastelorange {
+    background-color: #FAC898;
+}
+.bg-pastelpink{
+    background-color: #F8C8DC ;
+}
+
+.bg-test{
+    background-color: var(--bs-cyan);
+}
+
+.bg-testt{
+    background-color: var(--bs-purple);
+}

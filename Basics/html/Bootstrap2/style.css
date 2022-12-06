@@ -1,0 +1,36 @@
+.mycustombtn:hover {
+  background-color: rgb(233, 212, 30) !important;
+  color: black !important;
+}
+
+/* input {
+  background-color: black !important;
+  color: red !important;
+  width: 80% !important;
+}
+
+input[type="email"] {
+  background: red !important;
+}
+
+
+.mainform > .mb-3 > input[type="email"]{
+    background-color: red !important;
+} */
+
+#register > .mb-3 > input[type='email']{
+    background-color: red !important;
+}
+
+#register > .mb-3:nth-child(3) > input{
+    background-color: green !important;
+}
+
+#login > .mb-3:nth-child(odd) > input{
+    background-color: purple !important;
+}
+
+#register > .mb-3:nth-child(even) > input{
+    background-color: rgb(226, 139, 172) !important;
+    border-color: pink !important;
+}

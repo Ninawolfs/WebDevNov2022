@@ -2,8 +2,14 @@
 
 p{
 color: powderblue;
-/* background-color: palevioletred; */
+background-color: palevioletred;
 border: 50px violet dashed;
+/* border-width: 50px;;
+border: 50px dashed transparent;
+padding: 15px;
+border-image-source: url(https://st2.depositphotos.com/2423111/7011/v/950/depositphotos_70114503-stock-illustration-design-whirlpool-movement-illusion-background.jpg);
+border-image-repeat: repeat; */
+border-image-slice: 30;
 border-radius: 50%;
 padding: 20px;
 margin: 20px;
