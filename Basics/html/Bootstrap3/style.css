@@ -1,0 +1,7 @@
+.bg-customcolor{
+    background-color: #E91E63;
+}
+
+.footer.row.d-flex.flex-column.position-fixed.bottom-0{
+    width: 50vh;
+}
