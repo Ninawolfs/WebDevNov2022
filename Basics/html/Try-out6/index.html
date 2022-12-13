@@ -1,36 +1,318 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-<head>
-  <title>Title</title>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
 
-  <!-- Bootstrap CSS v5.2.1 -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-</head>
+  <body>
+    <header>
+      <!-- Navbar  -->
 
-<body>
-  <header>
-    <!-- place navbar here -->
-  </header>
-  <main>
+      <div class="container-fluid p-0">
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark text-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img src="./Images/logo2.jpg" width="100" height="60"
+            /></a>
+            <a class="navbar-brand" href="#">AstroSpace</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Space Walk</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Astrological sign
+                  </a>
+                  <ul
+                    class="dropdown-menu bg-dark text-light dropdown-menu-dark"
+                  >
+                    <li><a class="dropdown-item" href="#">Aries</a></li>
+                    <li><a class="dropdown-item" href="#">Taurus</a></li>
+                    <li><a class="dropdown-item" href="#">Gemini</a></li>
+                    <li><a class="dropdown-item" href="#">Cancer</a></li>
+                    <li><a class="dropdown-item" href="#">Leo</a></li>
+                    <li><a class="dropdown-item" href="#">Virgo</a></li>
+                    <li><a class="dropdown-item" href="#">Libra</a></li>
+                    <li><a class="dropdown-item" href="#">Scorpio</a></li>
+                    <li><a class="dropdown-item" href="#">Sagittarius</a></li>
+                    <li><a class="dropdown-item" href="#">Capricorn</a></li>
+                    <li><a class="dropdown-item" href="#">Aquarius</a></li>
+                    <li><a class="dropdown-item" href="#">Pisces</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button class="btn btn-outline-secondary" type="submit">
+                  Search
+                </button>
+              </form>
+            </div>
+          </div>
+        </nav>
 
-  </main>
-  <footer>
-    <!-- place footer here -->
-  </footer>
-  <!-- Bootstrap JavaScript Libraries -->
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
-  </script>
+        <!-- Navbar End -->
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
-    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
-  </script>
-</body>
+        <!-- Carousel -->
 
+        <div
+          id="carouselExampleCaptions"
+          class="carousel slide"
+          data-bs-ride="false"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="./Images/image5.jpg"
+                class="d-block w-100 h-10"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Astral Bodies</h5>
+                <p>
+                  The beauty of the night sky is filled with many mysterious
+                  astral bodies
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./Images/image1.avif"
+                class="d-block w-100 h-10"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Mistic Zodiac</h5>
+                <p>
+                  Discover the secrets of the mystic zodiac and unlock your true
+                  potential
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./Images/image4.jpg"
+                class="d-block w-100 h-10"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Transcendent Spirit</h5>
+                <p>
+                  The transcendent spirit is a beautiful and powerful force that
+                  reminds us of our inner potential
+                </p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+        <!-- Carousel End -->
+
+           <!-- Modal -->
+           <button type="button" class="btn btn-primary bg-dark d-flex mx-auto m-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Allergic to bull?
+          </button>
+          
+         
+          <div class="modal fade text-dark bg-dark" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header bg-light">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">General Data Protection Regulation</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body bg-light">
+                  Being allergic to bullcrap is no laughing matter. It can cause a range of symptoms, from irritation and mild distress to a full blown panic attack. There are many factors that can make a person particularly sensitive to this type of energy, such as a history or trauma, a lack of self-confidence, and a tendency to take things too personally. To cope with this allergy, it’s important to know the warning signs and develop healthy coping mechanisms, such as journaling, deep breathing exercises, and talking to a therapist or trusted friend. Everyone deserves to live in a world free of bullcrap, and taking steps to protect yourself from such toxicity is an important way to honor your own mental health.
+                </div>
+                <div class="modal-footer bg-light">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Modal end -->
+
+        <!-- Accordeon -->
+
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button
+                class="accordion-button accordion-dark bg-dark text-light"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Astral Bodies
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body bg-secondary accordion-body-dark text-dark">
+                <strong>How to access your true Astral Body</strong> </br>Astral bodies are thought to be higher vibrational energetic bodies that reside in their own unique plane of existence. They are said to be the bridge between the physical and spiritual world, and represent our highest potential as spiritual beings. Astral bodies allow us to exist in multiple planes of existence at once, enabling us to explore new levels of spiritual growth and awareness. While astral travel and body are often confused with lucid dreaming, they are two distinct phenomena. Astral bodies give us the ability to access information from other realms and dimensions, which allows us to develop a better understanding of ourselves and the universe.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button
+                class="accordion-button collapsed accordion-dark bg-dark text-light"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                Mistic Zodiac
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body bg-secondary accordion-body-dark text-dark">
+                <strong>What is your Mistic Zodiac</strong> </br> Mistic Zodiac is a powerful online astrology platform that provides users with personalized insights and accurate predictions about their lives. It combines ancient astrological techniques with modern technologies, allowing users to explore their birth charts in an easy and intuitive way. Mistic Zodiac's visuals are stunning, making it easy to understand the different components of one's personal birth chart. It offers guidance and advice on life-related issues such as career, relationships, health, and finances. The app helps users track their progress through their various astrological cycles, giving them the needed clarity to make important decisions in their lives. With Mistic Zodiac, users can take control of their future, discovering new opportunities and gaining a deeper understanding of their inner selves..
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button
+                class="accordion-button collapsed accordion-dark bg-dark text-light"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+              Transcendent Spirit
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body bg-secondary accordion-body-dark text-dark">
+                <strong>How to attain true transcendence of the spirit</strong> </br>Transcendent Spirit is the power of surpassing, transcending, and rising above our mundane limitations. It is the force that enables us to reach our highest potential and to create something far greater than we could ever imagine. When we connect to Transcendent Spirit, we become inspired, motivated and uplifted. We are able to access the unique gifts, talents and abilities that lie within us. We can discover our true purpose and express it with clarity and ease. Through this connection, we open ourselves up to a world of possibility and opportunity. We no longer feel confined and bound by our everyday realities, but instead become empowered and liberated. Transcendent Spirit is the limitless source of our inner strength, courage and inspiration.
+              </div>
+            </div>
+          </div>
+        </div>
+
+     
+
+        <!-- Accordeon End -->
+      </div>
+    </header>
+    <main></main>
+    <footer>
+      <!-- place footer here -->
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
