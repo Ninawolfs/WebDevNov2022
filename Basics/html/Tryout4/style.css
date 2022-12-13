@@ -1,0 +1,19 @@
+.generalbg{
+    background-color: #6d7b3e;
+}
+
+.email{
+    color: rgb(207,217,95);
+}
+
+.formborder{
+    background-color: white;
+    box-shadow: -16px 18px 5px 0px rgba(0,0,0,0.22);
+}
+
+.btn{
+    background-color: rgb(207,217,95);
+    border: none;
+}
+
+
