@@ -27,8 +27,8 @@
 // variable types:
 /*
 Let
-const --> statisch, constant, unchangable
-var
+const --> statisch, constant, unchangable (no update and no re-declaration)
+var --> possibility to update value or re-declare the value)
 */
 
 // console.log(y, "before");
