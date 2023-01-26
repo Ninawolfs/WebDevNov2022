@@ -115,7 +115,7 @@ result=fullText.split('.');
 result=fullText.split(' '); // no selector it takes every letter/character seperatly if you add a space it splits every word
 
 
-//17.trim() ---> trim the outside of your string
+//17.trim() ---> trim the outside of your string// alle spaces wegnemen
 
 result='    hello world ';
 result=result.trim();
