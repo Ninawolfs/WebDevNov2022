@@ -39,3 +39,37 @@ const dice1Random = Math.round(Math.random()*5);
 const dice2Random = Math.round(Math.random()*5);
 console.log(`Dice1: ${diceRooll.dice1[dice1Random]} \n Dice2: ${diceRooll.dice2[dice2Random]}`)
 
+// Mix html voorbeeld
+
+const dice1text = document.getElementById('dice1');
+const dice2text = document.getElementById('dice2');
+const output = document.getElementById('result');
+let count = 0;
+const winnerGif = document.getElementById ('winnerGif');
+const winSound = document.getElementById('winSound');
+
+function diceRoll(){
+    const dice1Random = Math.round(Math.random()*5+1) // range 1-6 because dice
+    const dice2Random = Math.round(Math.random()*5+1)
+    dice1text.innerText=`Dice: ${dice1Random}`;
+    dice2text.innerText=`Dice: ${dice2Random}`;
+    if (dice1Random===dice2Random){
+        count++
+        output.innerText="You win!!!" + count
+        winnerGif.src="https://media2.giphy.com/media/3ohryhNgUwwZyxgktq/giphy.gif"
+        winSound.play()
+    }else{
+        winnerGif.src=""
+    }
+// setTimeout (()=>{
+//     winnerGif.src=""
+// },5000) // 5000 millisec = 5 sec
+
+
+
+}
+
+function ClickHandler(){
+    diceRoll()
+}
+

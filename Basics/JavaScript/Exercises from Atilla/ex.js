@@ -130,3 +130,9 @@ function findByEmailDns(domain){        // domain name system zoals hotmail of g
 } 
 
 console.log(findByEmailDns("@gmail.com"))
+
+
+
+
+
+
