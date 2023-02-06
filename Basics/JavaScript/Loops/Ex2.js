@@ -893,12 +893,61 @@ for (i=0;i<people.length;i++){
 
 // 10. loop through the array and compare the postalZip of each person to the postalZip and print out the name and postalZip of each person if the postalZip is the same as the postalZip of the person in the array
 
-let x = 0;
+// Dus vraag is: vergelijk alle mensen in de array en die die dezelfde zipcode hebben moeten samengenomen worden
 
-for (i=0;i<people.length;i++){
-    if (i === x){
-        console.log(people[i].name)
-        console.log(people[i].postalZip)
-    }
-}
+// let x = 0;
+
+// for (i=0;i<people.length;i++){
+//     if (i === x){
+//         console.log(people[i].name)
+//         console.log(people[i].postalZip)
+//     }
+// }
+
+let found = [];
+
+
+// people.forEach(person=>{
+//     let sameZipCode = people.filter()
+// })
+
+// for (let i=0;i<people.length;i++){
+
+//     //console.log(people[i].postalZip) input
+
+
+
+// };
+
+// console.log(found);
+
+
+people.forEach(function (otherName){   // --> Dynamic version of solution
+    //console.log(otherName.postalZip)
+
+    let newArray = people.filter(function (x){
+        return x.postalZip === otherName.postalZip
+    });
+
+    console.log(newArray)
+
+})
+//
+
+// let newArray = people.filter(function (x){    --> Static version of solution
+//     return x.postalZip === "35116"
+// });
+
+// console.log(newArray)
+
+
+
+
+
+
+// Help me to know how many lines there are where the number of 0's is a multiple of 3 or the numbers of 1s is a multiple of 2.
+
+// To solve this problem may be you need to use the function split(), the function forEach or map and length property.
+// do not forget to use if statement and logical operators.
+
 
