@@ -1,0 +1,1 @@
+// check promise objects + examples

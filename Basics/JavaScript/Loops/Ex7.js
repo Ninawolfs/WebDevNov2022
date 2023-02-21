@@ -14,7 +14,7 @@
 // - toLowerCase
 // - trim
 // - length
-// - includes ok
+// - includes 
 // - indexOf
 // - slice
 
@@ -56,6 +56,7 @@ const myToDoList = [{
 
 function addObj(item){
     let addedObj = myToDoList.push(item)
+    //or : return myToDoList.push(item) 
 };
 
 addObj({
@@ -78,6 +79,7 @@ addObj({
 //         return item.id === id
 //     })
 //     myToDoList.splice(findItem,1)
+//     // or: return myToDoList.splice(findItem,1) --> insurance that the function/loop stops after and doesn't become an infinite loop. Good practise to always use return to stop the function. 
 // };
 
 // delItem(1);
@@ -90,18 +92,18 @@ addObj({
 // - Update the object in the array
 
 
-const upDateItem = function(id, propname , newvalue){
-    let updateItem = myToDoList.findIndex(function(item){
-        return item.id === id
+// const upDateItem = function(id, propname , newvalue){
+//     let updateItem = myToDoList.findIndex(function(item){
+//         return item.id === id
        
-    })
-    myToDoList[updateItem][propname] = newvalue
-};
+//     })
+//     myToDoList[updateItem][propname] = newvalue
+// };
 
-upDateItem(5, 'time', 'not urgent');
+// upDateItem(5, 'time', 'not urgent');
 // console.log(myToDoList);
 
-// Uitleg: het deel van  myToDoList[updateItem][propname] = newvalue  moet buiten de functie van let upDatItem komen!! Het maakt deel uit van de functie (id,propname, newvalue), niet de andere functie!
+// Uitleg: het deel van  myToDoList[updateItem][propname] = newvalue  moet buiten de functie van let upDateItem komen!! Het maakt deel uit van de functie (id,propname, newvalue), niet de andere functie!
 
 
 
@@ -138,14 +140,12 @@ myToDoList.forEach(function (item, index) {
 // We need to loop through array and display each object that comes back true; --< const urgent
 
 function urgentToDo(value){
-    let urgent = myToDoList.filter(word => {
-        if (word.time === value) {
-            return value
-        }});
+    let urgent = myToDoList.filter(word => word.time === value)
+            console.log(urgent)
+            return urgent
+    };
     
-};
-
-console.log(urgentToDo('urgent'));
+urgentToDo('urgent');
 
 
 
