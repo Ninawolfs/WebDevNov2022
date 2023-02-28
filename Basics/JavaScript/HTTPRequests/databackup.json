@@ -1,0 +1,29 @@
+{
+    "database": [
+      {
+        "id": 1,
+        "title": "JavaScript",
+        "body": "API is cool"
+      },
+      {
+        "id": 2,
+        "title": "TestTest",
+        "body": "API is freezing"
+      },
+      {
+        "id": 3,
+        "title": "GreatDay",
+        "body": "API is blazing hot"
+      },
+      {
+        "id": 4,
+        "title": "Viper",
+        "body": "Poisonous reptilian"
+      },
+      {
+        "title": "Python",
+        "body": "Python is a reptilian",
+        "id": 698
+      }
+    ]
+  }

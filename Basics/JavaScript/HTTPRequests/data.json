@@ -1,11 +1,19 @@
 {
-    "database":[{
-        "id":1,
-        "title":"JavaScript",
-        "body":"API is cool"
-    },{
-        "id":2,
-        "title":"TestTest",
-        "body":"API is freezing"
-    }]
+  "database": [
+    {
+      "username": "test",
+      "comment": "test",
+      "id": 1
+    },
+    {
+      "username": "Zana",
+      "comment": "IS a great support!",
+      "id": 2
+    },
+    {
+      "username": "Doctor",
+      "comment": "Signs of a clustermigraine?",
+      "id": 3
+    }
+  ]
 }
