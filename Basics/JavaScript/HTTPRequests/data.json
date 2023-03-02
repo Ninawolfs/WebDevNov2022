@@ -1,19 +1,39 @@
 {
   "database": [
     {
-      "username": "test",
-      "comment": "test",
-      "id": 1
-    },
-    {
-      "username": "Zana",
-      "comment": "IS a great support!",
+      "username": "Acceptance",
+      "comment": "Accept what you cannot change",
       "id": 2
     },
     {
-      "username": "Doctor",
-      "comment": "Signs of a clustermigraine?",
+      "username": "Reassurance",
+      "comment": "It will all become clear, give it some time",
       "id": 3
+    },
+    {
+      "username": "Zen",
+      "comment": "Always go with the flow",
+      "id": 5
+    },
+    {
+      "username": "Surprise",
+      "comment": "Maybe it will suddenly all make sense!",
+      "id": 6
+    },
+    {
+      "username": "Confusing",
+      "comment": "Sometimes I'm not sure what I'm doing!",
+      "id": 7
+    },
+    {
+      "username": "Compromise",
+      "comment": "It is working, even if I'm not sure what's happening",
+      "id": 8
+    },
+    {
+      "username": "Balance",
+      "comment": " Be strict with yourself but accept downtime when needed",
+      "id": 9
     }
   ]
 }
