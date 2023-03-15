@@ -50,22 +50,70 @@ addToDoBtn.addEventListener ('click', function (){
 //     }, 3000)
 // })
 
-deleteBtn.addEventListener('click', function (){
-    const list = document.querySelector('#list')
-    const items = list.children
-    function toDelete (i) {
-    while (i > 0) {
-        list.removeChild(items[i]);
-        i--
-    }        
-}
-toDelete (items.length - 1)
+// deleteBtn.addEventListener('click', function (){
+//     const list = document.querySelector('#list')
+//     const items = list.children
+//     function toDelete (i) {
+//     while (i > 0) {
+//         list.removeChild(items[i]);
+//         i--
+//     }        
+// }
+// toDelete (items.length - 1)
+// })
+
+
+// click events
+
+addToDoBtn.addEventListener('dblclick', function (e){ // dubbel click to activate event
+    console.log('double click ok');
+    e.preventDefault();
+})
+
+addToDoBtn.addEventListener('mousedown', (e)=>{ // klik maar event start vanaf je klikt zonder de knop los te laten
+    console.log('mouseover ok')
+})
+	
+
+addToDoBtn.addEventListener('mouseup', (e)=>{ // same same but different dan click
+    console.log('mouseup ok')
+})
+
+addToDoBtn.addEventListener('mousemove', (e)=>{ // event gebeurd elke keer dat je je muis beweegt (per pixel)
+    console.log('mousemove ok')
+})
+
+addToDoBtn.addEventListener('mouseover', (e)=>{ // event wnr je muis in de button area gaat
+    console.log('mouseover ok')
+})
+
+addToDoBtn.addEventListener('mouseout', (e)=>{ // event wnr je muis uit de btn area gaat
+    console.log('mouseout ok')
+})
+
+// keybord events
+
+toDoInput.addEventListener('keyup', (e)=>{ // accepts everything - once you release the key event is activated
+    console.log('keyup ok! ');
+})
+
+toDoInput.addEventListener('keydown', (e)=>{ // accepts everything - once you press down the key the event is activated
+    console.log('keydown ok! ');
+})
+
+toDoInput.addEventListener('keypress', (e)=>{ // limited to numbers & letters
+    console.log('keypress ok! ');
+})
+
+
+// document events
+
+document.addEventListener('DOMContentLoaded', ()=>{ // event activated only when the whole page is loaded
+    console.log('domcontentloaded ok');
 })
 
 
 
-
-	
 
 
 
