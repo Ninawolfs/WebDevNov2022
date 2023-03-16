@@ -15,9 +15,9 @@ document.addEventListener('keydown', (e) => {
   
 // 4. Create a function that takes a key value as an argument (data-key="75") OK
 // 5. Loop through the audio elements and play the audio element that has the same data-key as the key value passed to the function ??
-// 6. Create switch statement that calls the function with the correct key value for each key ??? 
+// 6. Create switch statement that calls the function with the correct key value for each key 
  function loopAudio(key){
-    if (key === e.key){
+    if (key === keys){
         switch (key) {
     case "A":
       playSound("65");
