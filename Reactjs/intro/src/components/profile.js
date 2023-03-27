@@ -1,5 +1,6 @@
 import {newsAll, newsById, getNewsDetail} from "../utils/newAction"
 
+
 export default function Profile(props){
     return(
         <ul>
